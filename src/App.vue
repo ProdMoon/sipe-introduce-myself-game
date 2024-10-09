@@ -96,14 +96,14 @@ const requestNext = async () => {
 };
 
 const playIntroMusic = () => {
-  musicSrc.value = './src/assets/intro.mp3';
+  musicSrc.value = './intro.mp3';
   setTimeout(() => {
     playVioletCityMusic();
   }, 33000);
 };
 
 const playVioletCityMusic = () => {
-  musicSrc.value = './src/assets/violet-city.mp3';
+  musicSrc.value = './violet-city.mp3';
 };
 
 const showImage = () => {
