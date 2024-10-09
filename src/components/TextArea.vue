@@ -65,12 +65,20 @@ onMounted(async () => {
 
 <template>
   <section
-    class="absolute bottom-0 h-1/4 w-full rounded-3xl border-[12px] border-double border-gray-500 bg-white p-8 font-orbit text-2xl"
+    class="absolute bottom-0 h-1/4 w-full rounded-3xl border-[12px] border-double border-gray-500 bg-white p-5 font-orbit text-lg lg:p-8 lg:text-2xl"
     @click="handleAreaClick"
   >
     {{ displayContent }}
-    <div v-if="readyToNext" class="absolute animate-bounce bottom-1 right-1 rounded-xl bg-black p-2 text-sm text-white">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+    <div
+      v-if="readyToNext"
+      class="absolute bottom-1 right-1 animate-bounce rounded-xl bg-black p-2 text-sm text-white"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="size-6"
+      >
         <path
           fill-rule="evenodd"
           d="M13.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z"

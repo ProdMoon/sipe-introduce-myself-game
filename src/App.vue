@@ -210,7 +210,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <main class="relative h-screen bg-black">
+  <main class="relative h-dvh bg-black">
     <div id="image-layer" class="absolute top-0 flex hidden h-full w-full items-center justify-center">
       <img src="./assets/my-avatar.png" alt="avatar" class="h-1/2" />
     </div>
