@@ -1,0 +1,23 @@
+{
+  "name": "introduce-myself-game",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind-watch": "tailwindcss -i ./src/assets/main.css -o ./src/assets/tailwind.css --watch",
+    "tailwind-build": "tailwindcss -i ./src/assets/main.css -o ./src/assets/tailwind.css"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.3.1"
+  }
+}
